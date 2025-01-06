@@ -3,9 +3,27 @@
     
 <head>This is a basic homepage.
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#1d27f4',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
 </head>
-<div>
-    <section class="h-screen bg-deepbluetest items-center text-pretty m-12 text-3xl flex p-12 md:m-14">
+<div class="lg:content-auto">
+    <section class="h-screen text-clifford items-center text-pretty m-12 text-3xl flex p-12 md:m-14">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sapien quis ligula condimentum facilisis. Nulla vel magna ipsum. Nulla neque ex, pretium sit amet finibus sit amet, tempor tincidunt nulla. Duis ac lobortis metus. Donec a tortor consequat, fringilla mauris vel, volutpat lectus. Mauris pellentesque tortor ut eros consequat maximus. Aliquam convallis lacus id cursus euismod. Duis finibus viverra mi non porta.
         </p>
