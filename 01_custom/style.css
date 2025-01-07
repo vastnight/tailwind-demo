@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* -- low-level settings */
+    html {
+        font-family: sans-serif;
+        line-height: 1.5;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+
+  } 
+
+
+/* reusable components level changes / patterns */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: #cb74f6;
+}
+
+/* tailwind utilities classes changes */
+.bg-red-300 { /** cmd+shift R for hard refresh*/
+    background-color: #870505;
+}

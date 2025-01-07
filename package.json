@@ -1,7 +1,13 @@
 {
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "http-server": "^14.1.1",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
-  }
+  },
+  "scripts": {
+    "start": "http-server .",
+    "build:css": "npx tailwindcss -i ./01_custom/style.css -o ./01_custom/output.css --watch"
 }
+}
+
