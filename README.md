@@ -14,4 +14,4 @@ trying out tailwind.
     - customize style on layers/components and utilities level
 
 ## Resources:
-- <a href="www.creative-tim.com/twcomponents/cheatsheet">Tailwind CSS cheatcheat</a>
+- <a href="https://www.creative-tim.com/twcomponents/cheatsheet">Tailwind CSS cheatcheat</a>
