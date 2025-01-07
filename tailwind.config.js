@@ -5,5 +5,5 @@ module.exports = {
     },
   },
   plugins: [],
-  mode: "jit"
+  mode: "jit"  /**just in time; will compile css in real time***/
 }

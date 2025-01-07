@@ -20,13 +20,17 @@
 
 
 /* reusable components level changes / patterns */
-.card {
+/* instead of classic css use apply directive - use it for highly reusable stuff */
+/* .card {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     overflow: hidden;
     background-color: #cb74f6;
-}
+} */
 
+.card {
+    @apply rounded-lg p-4 border-spacing-3 overflow-hidden bg-gradient-to-r from-purple-400 to-orange-200 via-pink-400 text-black;
+}
 /* tailwind utilities classes changes */
 .bg-red-300 { /** cmd+shift R for hard refresh*/
     background-color: #870505;

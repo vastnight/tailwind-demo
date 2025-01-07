@@ -10,8 +10,8 @@ trying out tailwind.
     - trying out tailwind classes via cdn
     - basic customisation (cdn)
 - **01_custom**: 
-    - basic npm setup; run with npm start, to rebuild css run npm run build:css
-    - customize style on layers/components and utilities level
+    - basic npm setup; run with npm start, to rebuild css run npm run build:css + jit mode
+    - customize style on layers/components and utilities level, apply directive
 
 ## Resources:
 - <a href="https://www.creative-tim.com/twcomponents/cheatsheet">Tailwind CSS cheatcheat</a>
